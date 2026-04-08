@@ -25,3 +25,32 @@
 1. Clone repository นี้ลงเครื่อง:
    ```bash
    git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
+เข้าไปที่โฟลเดอร์โปรเจกต์:
+
+Bash
+cd YOUR_REPO_NAME
+ติดตั้ง dependencies:
+
+Bash
+npm install
+รันโปรเจกต์:
+
+Bash
+npx expo start
+⚙️ Configuration
+แอปพลิเคชันเชื่อมต่อกับ HiveMQ Cloud โดยใช้การตั้งค่าดังนี้:
+
+Broker: HiveMQ Cloud (SSL/TLS)
+Port: 8884 (WebSocket Secure)
+
+📝 Assignment Information
+Course: Engineering / Computer Science
+
+Organization: Sripatum University (SPU)
+
+Project: Assignment 12 - Smart IoT Interface
+
+Developed with ❤️ by Phamnaja
+
+
+---
