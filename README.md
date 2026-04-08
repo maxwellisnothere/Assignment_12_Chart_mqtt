@@ -1,50 +1,27 @@
-# Welcome to your Expo app 👋
+# 🌡️ Smart IoT Dashboard (MQTT)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+แอปพลิเคชัน Real-time Dashboard สำหรับติดตามค่าอุณหภูมิผ่านโปรโตคอล MQTT พัฒนาด้วย **React Native** และ **Expo** โดยเน้นการออกแบบ UI ที่สะอาดตาและใช้งานง่ายตามหลัก Material Design
 
-## Get started
+## ✨ Features
+- **Real-time Monitoring**: รับข้อมูลจาก MQTT Broker (HiveMQ Cloud) และแสดงผลทันที
+- **Dynamic Charting**: แสดงกราฟเส้นแนวโน้มอุณหภูมิ 10 ข้อมูลล่าสุดด้วย `react-native-chart-kit`
+- **Two-way Communication**: สามารถพิมพ์ค่าอุณหภูมิจำลองและ Publish กลับไปยัง Topic ที่กำหนดได้
+- **Modern UI**: ใช้ส่วนประกอบจาก `react-native-paper` เพื่อประสบการณ์ใช้งานที่ดีเยี่ยม
+- **Connection Status**: มีระบบตรวจสอบสถานะการเชื่อมต่อ (Online/Offline) แบบ Real-time
 
-1. Install dependencies
+## 🛠️ Tech Stack
+- **Framework**: [React Native (Expo)](https://expo.dev/)
+- **Protocol**: MQTT via [Paho JavaScript Client](https://www.eclipse.org/paho/index.php?page=clients/js/index.php)
+- **UI Framework**: [React Native Paper](https://reactnativepaper.com/)
+- **Visuals**: [React Native Chart Kit](https://github.com/indiespirit/react-native-chart-kit)
 
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (แนะนำ LTS)
+- Expo Go app บนมือถือของคุณ
+
+### Installation
+1. Clone repository นี้ลงเครื่อง:
    ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+   git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
